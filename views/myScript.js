@@ -1,7 +1,19 @@
+var open = 0;
+
 function openNav() {
-  document.getElementById("mobile-nav").style.width = "100%";
+	if (!open) {
+		document.getElementById("nav-content").style.width = "250px";
+  		document.getElementById("nav-content").style.visibility = "visible";
+  		document.getElementById("nav-content").style.opacity = "1";
+  		open = 1;
+	} else {
+		document.getElementById("nav-content").style.width = "0%";
+		open = 0;
+	}
+  
+
 }
 
 function closeNav() {
-  document.getElementById("mobile-nav").style.width = "0%";
+  
 }

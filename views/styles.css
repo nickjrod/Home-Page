@@ -57,9 +57,9 @@ h2 {
 	position: absolute;
 
 	right: 0px;
-	width: 250px;
+	/*width: 250px;*/
 	z-index: 10;
-	opacity: 0;
+	opacity: 1;
 	transition: visibility 0s, opacity .5s ease-in-out;
    	-moz-transition: visibility 0s, opacity .5s ease-in-out;
    	-webkit-transition: visibility 0s, opacity .5s ease-in-out;
@@ -82,11 +82,11 @@ h2 {
 	border: 1px solid rgb(139, 224, 255);
 
 }
-
+/*
 .dropdown:hover .dropdown-content {
 	visibility: visible;
 	opacity: 1;
-}
+}*/
 
 .dropdown:hover .dropbtn {
 	color: rgb(139, 224, 255);
