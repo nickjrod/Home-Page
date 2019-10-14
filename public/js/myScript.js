@@ -13,7 +13,3 @@ function openNav() {
   
 
 }
-
-function closeNav() {
-  
-}

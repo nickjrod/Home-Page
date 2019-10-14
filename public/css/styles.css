@@ -67,7 +67,7 @@ h2 {
 
 .dropdown-content a {
 	display: block;
-	background-color: #BEBEBE; 
+	background-color: #FDFCFC; 
 	font-size: 1.25em;
 	padding: 15%;
 	text-decoration: none;
@@ -78,7 +78,7 @@ h2 {
 }
 
 .dropdown-content a:hover {
-	background-color: #D3D3D3;
+	background-color:#FDFCFC;
 	border: 1px solid rgb(139, 224, 255);
 
 }
@@ -129,12 +129,8 @@ br {
 	text-align: center;
 }
 
-#nav {
-
-}
-
 #header {
-	background: #B0B0B0;
+	background: #FDFCFC;
 	padding-top: 10px;
 	position: fixed;
 	top: 0;
@@ -144,15 +140,20 @@ br {
 	z-index: 2;
 }
 
+#image {
+	padding-top: 40px;
+	background: #00003B;
+}
+
 
 #about {
 	padding-top: 80px;
 	padding-bottom: 10px;
-	background:#D0D0D0;
+	background: #97BAEC;
 }
 
 #projects {
-	background: #D8D8D8;
+	background: #BBDFFA;
 	padding-top: 80px;
 	padding-bottom: 30px;
 }
@@ -160,13 +161,30 @@ br {
 #resume {
 	padding-top: 80px;
 	padding-bottom: 10px;
-	background: #E8E8E8;
+	background: #EDF6FD;
 }
 
 #footer {
-	background: #F8F8F8;
+	background: #FDFCFC;
 	padding-top: 10px;
 	min-height: 40px;
+}
+
+
+.main-image {
+	height: 100px;
+	width:100px;
+
+}
+
+.main-image > img {
+	width: 100%;
+	height: auto;
+}
+
+#hint {
+	font-size: .25em;
+	line-height: .5;
 }
 
 .card {
@@ -188,8 +206,6 @@ br {
 	padding-left: 1em;
 }
 
-
-
 .row {
 	width: 100%;
 	overflow: hidden;
@@ -210,6 +226,26 @@ For mobile phones:
         width: 100%;
     }
 
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#name{
+	float: left;
+	margin-left: 10%;
+	margin-top: 25px;
+	text-align: center;
+}
+
+.skills {
+	margin: auto;
+	text-align: center;
+}
+
+
+
 @media only screen and (min-width: 501px) {
   /* For tablets: */
     .col-m-1 {width: 8.33%;}
@@ -224,6 +260,20 @@ For mobile phones:
     .col-m-10 {width: 83.33%;}
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
+    .container {
+	
+	width: 75%;
+		margin: auto;
+		overflow: hidden;
+	}
+	#name{
+		float: left;
+		margin-left: 12.5%;
+		margin-top: 25px;
+		text-align: center;
+}
+
+
 }
 
 @media only screen and (min-width: 768px) {
