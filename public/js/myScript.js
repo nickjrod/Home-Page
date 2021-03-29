@@ -10,6 +10,11 @@ function openNav() {
 		document.getElementById("nav-content").style.width = "0%";
 		open = 0;
 	}
-  
+}
 
+function closeNav() {
+	if (open) {
+		document.getElementById("nav-content").style.width = "0%";
+		open = 0;
+	}
 }

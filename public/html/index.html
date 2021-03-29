@@ -4,6 +4,7 @@
 		<title>Nick Rodriguez</title>
 		<link rel="stylesheet" href="../css/styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" type="image/jpg" href="../images/favicon.png"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body id="body">
@@ -13,16 +14,16 @@
 			<div id="header">
 
 				<div id="name">
-					Nick Rodriguez
+					<a href="#">Nick Rodriguez</a>
 				</div>
 
 				<div class="dropdown">
 					<div onclick="openNav()" class="dropbtn">&#9776;</div>
 					<div class="dropdown-content" id="nav-content">
-						<a href="#">Top</a>
-						<a href="#about">About</a>
-						<a href="#projects">Projects</a>
-						<a href="#resume">Experience</a>
+						<a onclick="closeNav()" href="#">Home</a>
+						<a onclick="closeNav()" href="#about">About</a>
+						<a onclick="closeNav()" href="#projects">Projects</a>
+						<a onclick="closeNav()" href="#resume">Experience</a>
 					</div>
 				</div>
 			</div>
@@ -303,12 +304,12 @@ Pandas Data Analysis library
 			</div>
 		</div>
 
-		<div class="section" id="footer">
+		<div class="section" id="footer-container">
 				<div class="container" id="footer">
 					<a href="https://github.com/nickjrod" target="_blank">
 						GitHub
 					</a>
-					<span> · </span>
+					<span> &#8226 </span>
 					<a href="mailto:nickjrodriguez@gmail.com" target="_blank">
 						Email
 					</a>
